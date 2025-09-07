@@ -2,7 +2,7 @@ import requests
 
 class AQIDataFetcher:
     API_URL = 'https://api.data.gov.in/resource/3b01bcb8-0b14-4abf-b6f2-c1bfd384ba69'
-    API_KEY = '579b464db66ec23bdd000001eba3effc176b441a67309c9d2964943f'
+    API_KEY = 'YOUR_API_KEY_HERE'  # Replace with your actual API key
 
     @staticmethod
     def fetch_data():
